@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <nav class="nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <span class="material-icons-outlined">
+            menu
+            </span>
+        </label>
+        <a href="index.html" class="enlace">
+            <img src="img/logospaceweb.png" class="logo">
+        </a>
+        <ul>
+            <li><a class="activo" href="index.html" >Inicio</a></li>
+            <li><a href="quienes somos.html" >¿Quiénes somos?</a></li>
+            <li><a href="servicios.html" >Servicios</a></li>
+            <li><a href="contactos.html" >Contactos</a></li>
+        </ul>
+        </nav>
+        <main>
+            <form action="enviar.php" method="post">
+            <h2>CONTACTOS</h2>
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Correo" placeholder="Correo" required>
+            <input type="text" name="Teléfono" placeholder="Teléfono" required>
+            <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea required>
+            <input type="submit" value="Enviar" class="boton" required>
+        </form>
+        </main>
+        <footer>
+            <section class="contenedorfooter4">
+                <p class="parrafo">copyright©spaceweb</p>
+            </section>
+        </footer>
+
+</body>
+</html>
